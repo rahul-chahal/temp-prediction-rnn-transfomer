@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from tensorflow import keras
 import argparse
+from tensorflow.keras import layers
 
 #Added argument parser to get dataset from command line
 parser = argparse.ArgumentParser(description='Recurrent neural networks')
